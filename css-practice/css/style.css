@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'FiraSans-Regular';
+  src: url('fonts/Fira_Sans/FiraSans-Regular.ttf') format('woff2'),
+  url('fonts/Fira_Sans/FiraSans-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font-family: "Fira Sans", system-ui;
+}

@@ -10,18 +10,25 @@
     
     <!-- Internal CSS -->
     <style>
-        
+        p, h1 {
+            background: red;
+            color: yellow;
+        }
+        .para {
+            color: red;
+            background: none;
+        }
     </style>
 </head>
 <body>
     <!-- Inline CSS -->
     <header>
-        <h1 id="main-title">Heading Level 1</h1>
+        <h1 id="main-title" style="padding: 30px; background: black; color: white;">Heading Level 1</h1>
     </header>
 
     <div class="container">
         <h2>Heading Level 2</h2>
-        <p>CSS (Cascading Style Sheets) is used to style and layout web pages.</p>
+        <p class="para">CSS (Cascading Style Sheets) is used to style and layout web pages.</p>
 
         <h2>Heading Level 2</h2>
         <p>Selectors allow you to target HTML elements to apply styles.</p>
