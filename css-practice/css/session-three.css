@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+
+/* Element Selector */
+p {
+    color: navy;
+}
+
+/* Class Selector */
+.highlight {
+    background-color: yellow;
+}
+
+/* ID Selector */
+#unique {
+    font-weight: bold;
+}
+
+/* Attribute Selector */
+input[type="text"] {
+    border: 1px solid black;
+    line-height: 32px;
+    border-radius: 4px;
+}
+
+/* Descendant Combinator */
+div p {
+    font-style: italic;
+}
+
+/* Child Combinator */
+ul > li {
+    list-style-type: square;
+}
+
+/* Adjacent Sibling Combinator */
+h2 + p {
+    color: red;
+}
+
+/* General Sibling Combinator */
+h2 ~ p {
+    color: green;
+}
+
+/* Grouping Selector */
+h1, h2, h3 {
+    text-align: center;
+}
+
+/* Pseudo-class Selector */
+a:hover {
+    color: orange;
+}
+
+/* Pseudo-element Selector */
+p::first-line {
+    font-weight: bold;
+}
+
+/* Pseudo-class Selector for nth-child */
+ul li:nth-child(odd) {
+    background-color: #f0f0f0;
+}
+
+/* Pseudo-class Selector for nth-of-type */
+ul li:nth-of-type(2) {
+    color: blue;
+}
