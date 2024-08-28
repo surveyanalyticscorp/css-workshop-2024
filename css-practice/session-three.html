@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors and Combinators</title>
+    <link rel="stylesheet" href="css/session-three.css">
+ </head>
+<body>
+    <header>
+        <h1>CSS Selectors and Combinators</h1>
+    </header>
+    <main>
+        <section id="unique">
+            <h2>Apply Ubuntu font</h2>
+            <ul>
+              <li>All p tags color-navy using Element Selector</li>
+              <li>Add class 'highlight' to span inside footer p tag. and write css for highlight class background color-yellow using Class Selector</li>
+              <li>Add ID to this section 'unique' and the text inside this section should be bold using ID Selector</li>
+              <li>use attribute selector fot input text and apply solid border 1px with color black</li>
+              <li>font style for p tags in div element should be italic using descendant combinator</li>
+              <li>use list style square for child li in ul using child combinator</li>
+              <li>update color of p tag to red having sibling h2 using Adjacent Sibling Combinator</li>
+              <li>update color of p tag to green having sibling h2 using General Sibling Combinator</li>
+              <li>align h1 h2 and h3 to center using grouping selector</li>
+              <li>anchor hover color should be orange</li>
+              <li>first line of p tag should have bold text using Pseudo-element Selector (first-line)</li>
+              <li>odd li should have background color -#f0f0f0 using Pseudo-element Selector (nth-child(odd))</li>
+              <li>li should have color -blue using Pseudo-element Selector (nth-of-type(2))</li>
+             </ul>
+
+            
+            <div>
+                <p>This paragraph is inside a div and has italicized text.</p>
+            </div>
+        </section>
+        <section>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+                <li>Item 4</li>
+            </ul>
+            <input type="text" placeholder="Type here">
+            <input type="checkbox" id="check" name="check">
+            <label for="check">Check this box</label>
+            <a href="#">Hover over me!</a>
+        </section>
+        <section>
+            <h2>Another Heading</h2>
+            <p>More text to demonstrate the adjacent sibling and general sibling combinators.</p>
+            <p>Another paragraph to show the general sibling styling.</p>
+        </section>
+    </main>
+    <footer>
+        <p>Footer content with some <span class="">highlighted</span> text.</p>
+    </footer>
+</body>
+</html>
